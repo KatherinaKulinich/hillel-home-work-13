@@ -34,3 +34,56 @@ body {
     color: #333333;
     text-decoration: none;
 }
+
+.header-background {
+    background-color: #ffffff;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.contacts {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+}
+
+.call {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: #ffffff;
+    padding: 13px 26px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+}
+
+.nav-services {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.service-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #000000;
+}
