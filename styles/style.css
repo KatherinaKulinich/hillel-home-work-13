@@ -14,3 +14,23 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.nav-background {
+    background-color: #E5E5E5;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-style: 14px;
+    line-height: 16px;
+    color: #333333;
+    text-decoration: none;
+}
