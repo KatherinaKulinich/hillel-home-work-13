@@ -4,3 +4,13 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
