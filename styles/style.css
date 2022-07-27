@@ -15,7 +15,7 @@ body {
     margin-left: auto;
 }
 
-.top-background {
+.menu-section {
     background-color: #E5E5E5;
     padding-top: 17px;
     padding-bottom: 17px;
@@ -35,7 +35,7 @@ body {
     text-decoration: none;
 }
 
-.header-background {
+.logo-section {
     background-color: #ffffff;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -72,12 +72,12 @@ body {
     border-radius: 40px;
 }
 
-.nav-background {
+.navigation-section {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.nav-services {
+.navigation-services {
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -91,7 +91,7 @@ body {
     color: #000000;
 }
 
-.sale {
+.sale-section {
     padding-top: 190px;
     padding-bottom: 190px;
     background-image: url(../images/sale.png);
@@ -135,7 +135,7 @@ body {
     text-align: center;
 }
 
-.main-background {
+.main-section {
     background-color: #E5E5E5;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -153,10 +153,13 @@ body {
     display: flex;
     gap: 30px;
     justify-content: space-between;
+}
+
+.offer-section {
     margin-bottom: 100px;
 }
 
-.offer-block:last-child {
+.offer-section:last-child {
     margin-bottom: 0;
 }
 
@@ -202,7 +205,7 @@ body {
     margin-bottom: 40px;
 }
 
-.cards {
+.cards-section {
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -262,7 +265,7 @@ body {
     width: 175px;
 }
 
-.partners {
+.partners-section {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 80px;
@@ -276,7 +279,7 @@ body {
     width: 25%;
 }
 
-.categories-background {
+.categories-section {
     background-color: #FFFFFF;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -313,11 +316,15 @@ body {
     width: 255px;
 }
 
+.connection-section {
+    background-color: #FFFFFF;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
 .connection {
     display: flex;
     justify-content: space-between;
-    padding-top: 37px;
-    padding-bottom: 37px;
 }
 
 .socials {
@@ -337,19 +344,19 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.bottom-background {
+.information-section {
     background-color: #EFEFEF;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-.bottom {
+.information {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.bottom-text {
+.information-text {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
