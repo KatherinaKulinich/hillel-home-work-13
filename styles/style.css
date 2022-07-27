@@ -29,7 +29,7 @@ body {
 
 .menu-item {
     font-weight: 400;
-    font-style: 14px;
+    font-size: 14px;
     line-height: 16px;
     color: #333333;
     text-decoration: none;
@@ -108,7 +108,7 @@ body {
     font-size: 48px;
     line-height: 48px;
     color: #ffffff;
-    margin: 0;
+    margin-top: 0;
     margin-bottom: 50px;
 }
 
@@ -137,10 +137,10 @@ body {
     text-align: center;
 }
 
-.main-section {
+.offer-section {
     background-color: #E5E5E5;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 .offer-header {
@@ -155,14 +155,6 @@ body {
     display: flex;
     gap: 30px;
     justify-content: space-between;
-}
-
-.offer-section {
-    margin-bottom: 100px;
-}
-
-.offer-section:last-child {
-    margin-bottom: 0;
 }
 
 .offer-card {
@@ -207,10 +199,15 @@ body {
 }
 
 .cards-section {
+    background-color: #E5E5E5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cards {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    margin-bottom: 100px;
 }
 
 .card {
@@ -273,9 +270,14 @@ body {
 }
 
 .partners-section {
+    background-color: #E5E5E5;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.partners {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 80px;
 }
 
 .partrer-logo {
@@ -284,6 +286,12 @@ body {
     border: 1px solid #EFEFEF;
     padding: 35px 60px;
     width: 25%;
+}
+
+.views-section {
+    background-color: #E5E5E5;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .categories-section {
@@ -341,15 +349,14 @@ body {
 }
 
 .socials-item {
-    position: relative;
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }   
-
-.icon-socials {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .information-section {
     background-color: #EFEFEF;
@@ -369,4 +376,5 @@ body {
     line-height: 14px;
     color: #828282;
     text-decoration: none;
+    margin: 0;
 }
