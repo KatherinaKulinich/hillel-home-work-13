@@ -54,6 +54,7 @@ body {
 }
 
 .tel {
+    display: block;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
@@ -75,6 +76,7 @@ body {
 .navigation-section {
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: #ffffff;
 }
 
 .navigation-services {
@@ -125,12 +127,12 @@ body {
 }
 
 .sale-button {
+    display: block;
     text-decoration: none;
     padding-top: 13px;
     padding-bottom: 13px;
     border: 2px solid #FFFFFF;
     border-radius: 40px;
-    display: block;
     width: 170px;
     text-align: center;
 }
@@ -169,12 +171,15 @@ body {
     text-align: center;
 }
 
+.offer-img {
+    margin-bottom: 40px;
+}
+
 .offer-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #333333;
-    width: 195px;
     letter-spacing: 0.3px;
     margin: 0;
     margin-bottom: 20px;
@@ -190,6 +195,7 @@ body {
 }
 
 .offer-button {
+    display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -198,11 +204,6 @@ body {
     padding: 9px 40px;
     background-color: #F13C6E;
     border-radius: 30px;
-    display: block;
-}
-
-.offer-img {
-    margin-bottom: 40px;
 }
 
 .cards-section {
@@ -213,11 +214,11 @@ body {
 }
 
 .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 35px 40px;
     background-color: #F13C6E;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 540px;
 }
 
@@ -246,23 +247,29 @@ body {
     line-height: 16px;
     color: #C4C4C4;
     background-color: #FFFFFF;
-    padding: 9px 104px 9px 25px;
+    padding: 9px 25px;
     border: none;
     border-radius: 30px;
     width: 225px;
 }
 
+.card-input:focus {
+    outline: 2px solid #828282;
+}
+
 .card-map {
+    display: block;
+    width: 175px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 9px 26px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
     border-radius: 30px;
     border: 2px solid #FFFFFF;
-    display: block;
-    width: 175px;
 }
 
 .partners-section {
@@ -302,12 +309,12 @@ body {
 }
 
 .category {
+    display: block;
     font-weight: 400;
     font-size: 12px;
     line-height: 28px;
     color: #828282;
     text-decoration: none;
-    display: block;
 }
 
 .category-colunm {
@@ -334,7 +341,7 @@ body {
 }
 
 .socials-item {
-    position: relative;;
+    position: relative;
 }   
 
 .icon-socials {
